@@ -1,1 +1,1 @@
-(function(){ window.BMap_loadScriptTime = (new Date).getTime(); document.write('<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=uBoP7qimmwaOMBOubLR20GFWXuKQvIgf&services=&t=20180521160403"></script>');})();
+(function(){ window.BMap_loadScriptTime = (new Date).getTime(); document.write('<script type="text/javascript" src="https://api.map.baidu.com/getscript?v=2.0&ak=uBoP7qimmwaOMBOubLR20GFWXuKQvIgf&services=&t=20180521160403"></script>');})();
