@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>香榭丽舍——首页</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>香榭丽舍·生活空间美学倡导者</h1>
+        <div id="navigation">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="introduction.html">公司介绍</a></li>
+                <li><a href="serviceprocess.html">服务流程</a></li>
+                <li><a href="designproduction.html">设计作品</a></li>
+                <li><a href="decorationknowledge.html">装修知识</a></li>
+                <li class="active"><a href="successfulcase.html">成功案例</a></li>
+                <li><a href="contact.html">联系方式</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div id="content-top" class="row">
+                    <div id="content-left" class="col-md-4">
+                        <img src="img/tip_title_bg.png" />
+                        <ul class="content-left-nav">
+                            <li><img src="img/nav_pic.png"><a href="">第一链接地址</a></li>
+                            <li><img src="img/nav_pic.png"><a href="">第二链接地址</a></li>
+                            <li><img src="img/nav_pic.png"><a href="">第三链接地址</a></li>
+                            <li><img src="img/nav_pic.png"><a href="">第四链接地址</a></li>
+                        </ul>
+                    </div>
+                    <div id="content-right" class="col-md-8">
+                        <div class="right-box">
+                            <h4 style="text-align: center; text-decoration: underline;">成功案例</h4>
+                            <div style="padding: 0px 40px;">
+                                <img style="width: 100%; height: 300px; border-radius: 15px;" src="img/pic1.jpg">
+                                <h4 style="text-align: center;">X&nbsp;X&nbsp;X&nbsp;X&nbsp;设&nbsp;计&nbsp;说&nbsp;明&nbsp;X&nbsp;X&nbsp;X&nbsp;X</h4>
+                                <p>设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明设计说明。</p>
+                            </div>
+                            <div class="pagination">
+                                <span>【<a href="">下一页</a>】</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div id="content-bottom" class="row">
+                    <h3>设计作品</h3>
+                    <div class="gallery">
+                        <img src="img/pic1.jpg">
+                        <img src="img/pic1.jpg">
+                        <img src="img/pic1.jpg">
+                        <img src="img/pic1.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <div id="footer" class="col-md-12">
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+    <script type="text/javascript">
+        // 内容区域左右两边等高
+        var leftHeight = parseInt($("#content-left").css("height"));
+        var rightHeight = parseInt($("#content-right").css("height"));
+        if (leftHeight > rightHeight) {
+            $("#content-right").css("height", leftHeight + 'px');
+        } else {
+            $("#content-left").css("height", rightHeight + 'px');
+        }
+    </script>
+</body>
+
+</html>
